@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/www/
+    - /bin/cp -R images $DEPLOYPATH
